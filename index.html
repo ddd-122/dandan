@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DanDan's Website By CYX</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="box-row">
+    
+  <div class="top-box">
+    <h1>Welcome to DanDan's Website</h1>
+    <p>This is a personal website about DanDan, a 5-year-old color-point Ragdoll cat.</p>
+  </div>
+  <div class="nav-box">
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#video">My Video</a></li>
+        <li><a href="#favorites">DanDan's Favorites</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+  <header id="home"><!--Add id anchor for page jump -->
+    <h1>DanDan's Website</h1>
+    <h2>By CYX </h2>
+    <link rel="stylesheet" href="index.css">
+  </header>
+  <main>
+    <div class="about-heading">
+      <h2>Welcome to my personal website!</h2>
+      <p>Hello everyone, I am a five-year-old color-point Ragdoll cat.</p>
+      <p>I have deep blue eyes and I am quiet and affectionate.</p>
+      <p>I hope you enjoy learning more about me!</p>
+    </div>
+     <div class="about-content">
+    <h2>🐱DanDan is coming!</h2>
+    <div class="cat">🐱</div>
+     </div> 
+    <section id="about"><!--Add id anchor for page jump -->
+        <h2>About me</h2>
+        <figure>
+          <img src="微信图片_20261001124529_34_204.jpg" alt="DanDan" width="120"><!--Used <figure> + <figcaption> to embed image with descriptive caption -->
+          <figcaption>DanDan's self-portrait2</figcaption>
+        </figure>
+      </div>
+      <p>Hello everyone, I am a five‑year‑old color‑point Ragdoll cat.</p>
+      <p>I came to my owner’s home on October 2nd.</p>
+      <p>I love drinking milk very much.</p>
+      <p>I have a gentle personality and I love staying close to people.</p>
+      <p>I hope I can stay with my owner forever.</p>
+    </section>
+    <article id="video"><!--Add id anchor for page jump -->
+      <h2 >My video</h2>
+        <video controls>
+          <source src="e3216a9439955dd067aa76ad7a72ede0.mp4" type="video/mp4"><!--Added <video> video player with controls playback controls, set width & height, fallback text for old -->
+          Your browser does not support the video tag.
+        </video>
+      </article>
+    <aside id="favorites"><!--Add id anchor for page jump -->
+      <h2>DanDan's Favorites</h2>
+      <ul>
+        <li>
+          <strong>Favorite things:</strong> Drinking milk and cuddling
+          <figure>
+            <img src="eat_20261004153817_37_204.jpg" alt="DanDan eating">
+            <figcaption>DanDan is eating</figcaption>
+          </figure>
+        </li>
+        <li>
+          <strong>Favorite toys:</strong> Cat toys
+          <video controls loop>         
+            <source src="4b9a4ac3b86c4c2a78c16c49fef6933eplay.mp4" type="video/mp4">
+            Your browser does not support the video tag.         
+          </video>
+        </li>
+        <li>
+          <strong>Favorite person:</strong> My owner
+          <figure>
+            <img src="owner_20261004161013_38_204.jpg" alt="DanDan's owner">
+            <figcaption>DanDan's owner</figcaption>
+          </figure>
+        </li>
+        <li>
+          <strong>Favorite group:</strong> aespa
+          <figure>
+            <img src="ae_20261004161623_40_204.jpg" alt="DanDan's favorite group, aespa">
+            <figcaption>DanDan's favorite group</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </aside>
+    <section id="contact"><!--Add id anchor for page jump -->
+      <h2>Contact Me</h2><!--New contact <form>: text input, email input, multi‑line textarea; required native form validation; <label> bound to inputs for accessibility; submit button -->
+      <form method="post">
+        <p>
+          <label for="contact-name">Your name:</label>
+          <input id="contact-name" name="name" type="text" required placeholder="Enter your name">
+        </p>
+        <p>
+          <label for="contact-email">Your email:</label>
+          <input id="contact-email" name="email" type="email" required placeholder="Enter your email">
+        </p>
+        <p>
+          <label for="contact-message">Message:</label><br>
+          <textarea id="contact-message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+        </p>
+       <p>
+        <label class="checkbox">
+  <input type="checkbox" name="agree">
+  <span class="checkmark"></span>
+  Do you like DanDan? 
+</label>
+</p>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>The last update to this page was on<!--Added semantic <time datetime=""> tag in footer for machine‑readable date; modified copyright statement-->
+    <time datetime="2026-10-01">October 1, 2026</time></p>
+    &copy; 2026 DanDan's Website
+  </footer>
+</body>
+</html>
